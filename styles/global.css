@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  font-family: "Spartan", sans-serif;
+}
+
+#profile_pic {
+  max-width: 80%;
+}
+.container {
+  display: flex;
+  max-width: 70%;
+  height: auto;
+  border: 1px solid black;
+  margin: 30px auto;
+}
+
+.column-one {
+  width: 50%;
+  border: black 1px solid; /* PLACEHOLDER */
+}
+
+.column-two {
+  width: 50%;
+  border: black 1px solid; /* PLACEHOLDER */
+}
+
+@media only screen and (max-width: 805px) {
+  .container {
+    max-width: 90%;
+    flex-wrap: wrap;
+  }
+  .column-one {
+    width: 90%;
+  }
+  .column-two {
+    width: 90%;
+  }
+  .footer h1 {
+    font-size: 20px;
+  }
+}
