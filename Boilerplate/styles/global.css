@@ -2,15 +2,9 @@ body {
   margin: 0px;
   font-family: "Spartan", sans-serif;
 }
-h2 {
-  padding: 0 30px;
-}
 
-#profile_pic {
-  max-width: 80%;
-}
 .container {
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 70%;
   border: solid black 1px;
   display: flex;
@@ -18,7 +12,7 @@ h2 {
 
 .column {
   width: 50%;
-  border: black 1px solid;
+  border: solid black 1px;
 }
 
 @media only screen and (max-width: 805px) {
@@ -27,12 +21,6 @@ h2 {
     flex-wrap: wrap;
   }
   .column {
-    width: 100%;
-  }
-  .footer h1 {
-    font-size: 10px;
-  }
-  .card {
     width: 100%;
   }
 }
