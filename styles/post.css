@@ -1,0 +1,24 @@
+.post-container {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.post-img {
+  width: 70%;
+}
+
+.post-content {
+  margin: auto;
+  text-align: left;
+  width: 70%;
+}
+
+@media only screen and (max-width: 805px) {
+  .post-container {
+    width: 90%;
+  }
+  .post-img {
+    width: 100%;
+  }
+}

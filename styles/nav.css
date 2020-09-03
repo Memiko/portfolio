@@ -21,9 +21,9 @@ nav a {
 }
 
 @media only screen and (max-width: 805px) {
-  .links {
+  /* .links {
     display: none;
-  }
+  } */
 
   /* nav {
     justify-content: center;

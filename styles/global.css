@@ -7,18 +7,21 @@ h2 {
 }
 
 #profile_pic {
-  max-width: 80%;
+  max-width: 70%;
+  /* margin: 100%; */
 }
 .container {
   margin: 50px auto;
   max-width: 70%;
-  border: solid black 1px;
+  /* border: solid black 1px; */
   display: flex;
+  text-align: center;
 }
 
 .column {
   width: 50%;
-  border: black 1px solid;
+  /* border: black 1px solid; */
+  text-align: center;
 }
 
 @media only screen and (max-width: 805px) {
@@ -34,5 +37,8 @@ h2 {
   }
   .card {
     width: 100%;
+  }
+  #profile_pic {
+    max-width: 90%;
   }
 }

@@ -1,9 +1,16 @@
 .button {
-  /* border: solid 2px red; */
-  color: red;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.button a {
+  border: solid 1px #e20007;
+  color: #e20007;
   background-color: white;
   padding: 15px 15px;
   font-size: 10px;
-  text-align: center;
+  text-decoration: none;
+  /* text-align: center; */
   margin: auto 0;
 }
