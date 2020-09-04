@@ -20,6 +20,13 @@
 
 #submit {
   margin-top: 0;
+  border: none;
+  color: #e20007;
+  background-color: white;
+  padding: 15px 15px;
+  font-size: 10px;
+  text-decoration: none;
+  margin: auto 0;
 }
 
 #get-in-touch {
@@ -29,6 +36,7 @@
 @media only screen and (max-width: 805px) {
   #get-in-touch h2 {
     font-size: 20px;
+    padding: 0;
   }
   .form {
     width: 90%;

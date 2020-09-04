@@ -27,21 +27,23 @@
         <h1>Get in touch</h1>
         <h2>hola@guillermosoria.com.au</h2>
       </div>
-      <form class="form">
+      <form class="form" action="https://formspree.io/xnqgeaaq" method="POST">
         <div class="form-group">
           <label>Name</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" name="Name" />
         </div>
         <div class="form-group">
           <label>Email address</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" name="email" />
         </div>
         <div class="form-group">
           <label>Message</label>
-          <input id="message" type="text" />
+          <input id="message" type="text" name="message" />
         </div>
-        <div class="button" id="submit">
-          <a>Submit</a>
+        <div class="button">
+          <a>
+            <button id="submit" type="submit">SUBMIT</button>
+          </a>
         </div>
       </form>
     </main>

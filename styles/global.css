@@ -16,6 +16,7 @@ h2 {
   /* border: solid black 1px; */
   display: flex;
   text-align: center;
+  /* display: block; */
 }
 
 .column {
