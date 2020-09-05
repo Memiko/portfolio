@@ -10,6 +10,11 @@ h2 {
   max-width: 70%;
   /* margin: 100%; */
 }
+
+#get-in-touch {
+  margin: auto;
+}
+
 .container {
   margin: 50px auto;
   max-width: 70%;
@@ -41,5 +46,8 @@ h2 {
   }
   #profile_pic {
     max-width: 90%;
+  }
+  .footer {
+    font-size: 10px;
   }
 }

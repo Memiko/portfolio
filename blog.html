@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guillermo Soria</title>
-    <!-- <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    /> -->
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/523740d927.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
@@ -29,7 +27,46 @@
       </div>
     </nav>
     <main>
-      <div class="container">
+      <div class="flex-container">
+        <div
+          class="img-container"
+          onclick="location.href='post_1.html';"
+          style="cursor: pointer"
+        >
+          <img
+            class="card-img"
+            src="http://www.brunswickdaily.com.au/wp-content/uploads/2020/08/IMG_3804-768x1024.jpeg"
+          />
+          <p class="card-title">What do you understand by bakery?</p>
+        </div>
+
+        <div
+          class="img-container"
+          onclick="location.href='post_2.html';"
+          style="cursor: pointer"
+        >
+          <img
+            class="card-img"
+            src="http://www.brunswickdaily.com.au/wp-content/uploads/2020/08/2019_03_02_66706_1551461528._large-1.jpg"
+          />
+          <p class="card-title">The other way around, and list of books</p>
+        </div>
+        <div
+          class="img-container"
+          onclick="location.href='post_3.html';"
+          style="cursor: pointer"
+        >
+          <img
+            class="card-img"
+            src="http://www.brunswickdaily.com.au/wp-content/uploads/2020/08/World-Music-1.jpg"
+          />
+          <p class="card-title">Where people listen</p>
+        </div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <!-- <div class="container">
         <div
           class="card"
           onclick="location.href='post_1.html';"
@@ -66,16 +103,18 @@
           />
           <h1>Hellow world</h1>
         </div>
-      </div>
+      </div> -->
     </main>
   </body>
-  <footer>
+  <footer class="footer">
     <div>
-      <h1>MELBOURNE AUSTRALIA HOLA@GUILLERMOSORIA.COM.AU</h1>
-    </div>
-    <div class="icons">
-      <a>git icon</a>
-      <a>LinkedIn icon</a>
+      <h2>MELBOURNE AUSTRALIA HOLA@GUILLERMOSORIA.COM.AU</h2>
+      <a class="icons" href="https://github.com/Memiko/portfolio">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="icons" href="https://www.linkedin.com/in/guillermosoria/">
+        <i class="fab fa-linkedin"></i>
+      </a>
     </div>
   </footer>
 </html>
