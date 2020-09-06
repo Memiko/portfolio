@@ -8,25 +8,17 @@ h2 {
 
 #profile_pic {
   max-width: 70%;
-  /* margin: 100%; */
-}
-
-#get-in-touch {
-  margin: auto;
 }
 
 .container {
   margin: 50px auto;
   max-width: 70%;
-  /* border: solid black 1px; */
   display: flex;
   text-align: center;
-  /* display: block; */
 }
 
 .column {
   width: 50%;
-  /* border: black 1px solid; */
   text-align: center;
 }
 
